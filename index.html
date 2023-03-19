@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Servicios de Desarrollador Web - Juan Osorio Alvarez</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="container">
+        <a href="#" class="logo">Juan Osorio Alvarez</a>
+        <ul>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#trabajos">Trabajos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="hero">
+      <div class="container">
+        <h1>Servicios de Desarrollador Web</h1>
+        <p>Desarrollo de sitios web a medida utilizando HTML, CSS y JS.</p>
+        <a href="#contacto" class="btn">Contáctame</a>
+      </div>
+    </div>
+  </header>
+  
+  <section id="servicios">
+    <h2>Servicios</h2>
+    <p>Desarrollo de sitios web con HTML, CSS y JavaScript</p>
+    <div class="logos">
+      <img src="https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png" alt="HTML5 logo">
+      <img src="https://cdn4.iconfinder.com/data/icons/iconsimple-programming/512/css-512.png" alt="CSS logo">
+      <img src="https://cdn.iconscout.com/icon/free/png-512/javascript-1-225993.png" alt="JavaScript logo">
+    </div>
+  </section>
+  
+  
+  
+  <section id="trabajos">
+    <div class="container">
+      <h2>Trabajos</h2>
+      <div class="trabajo">
+        
+        <h3>Geometrix</h3>
+        <p>Aplicacion de geometria construida a base de las tecnologias HTML, CSS, JavaScript para calcular el Perímetro, Area y Volumen de todas las figuras geometricas</p>
+        <a href="https://osorioj202.github.io/App-de-Geometria.io/" class="btn">Ver proyecto</a>
+      </div>
+      <div class="trabajo">
+        
+        <h3>Calaveras</h3>
+        <p>Juego diseñado a base de HTML, CSS, JavaScript y Canvas con calaveras y explosivos.</p>
+        <a href="https://osorioj202.github.io/buildingVideogame.io/" class="btn">Ver proyecto</a>
+      </div>
+
+</div>
+
+  </section>
+  <section id="contacto">
+    <div class="container">
+      <h2>Contacto</h2>
+      <p>¿Tienes alguna pregunta o te gustaría trabajar conmigo? ¡Contáctame!</p>
+      <form action="mailto:osorioj202@gmail.com" method="post" enctype="text/plain">
+        <div class="form-group">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Correo electrónico:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="mensaje">Mensaje:</label>
+          <textarea name="mensaje" id="mensaje" cols="30" rows="10" required></textarea>
+        </div>
+        <input type="submit" value="Enviar" class="btn">
+      </form>
+    </div>
+  </section>
+  
+  <footer>
+    <div class="container">
+      <p>Juan Osorio Alvarez &copy; 2023 - Todos los derechos reservados.</p>
+    </div>
+  </footer>
+  <script src="./main.js"></script>
+</body>
+</html>

@@ -1,0 +1,227 @@
+/* Estilos generales */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Estilos de la navegación */
+  
+  nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-right: 20px;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .logo {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  /* Estilos del héroe */
+  
+  .hero {
+    background-color: #f2f2f2;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .btn:hover {
+    background-color: #666;
+  }
+  
+  /* Estilos de los servicios */
+  
+  #servicios {
+    background-color: #f2f2f2;
+    padding: 50px 20px;
+  }
+  
+  #servicios h2 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #servicios p {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logos img {
+    width: 100px;
+    height: 100px;
+    margin: 0 20px;
+    transition: transform 0.2s;
+  }
+  
+  .logos img:hover {
+    transform: scale(1.2);
+  }
+  
+  /* Estilos de los trabajos */
+  
+  .trabajo {
+    margin-bottom: 50px;
+  }
+  
+  .trabajo img {
+    width: 100%;
+    border-radius: 5
+
+    /* Estilos del formulario de contacto */
+
+    #contacto {
+    background-color: #f2f2f2;
+    padding: 100px 0;
+    }
+    
+    #contacto h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-align: center;
+    }
+    
+    #contacto p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    text-align: center;
+    }
+    
+    .form-group {
+    margin-bottom: 20px;
+    }
+    
+    label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    }
+    
+    input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    }
+    
+    input[type="submit"]:hover {
+    background-color: #666;
+    }
+    
+    /* Estilos del footer */
+    
+    footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    }
+    
+    footer p {
+    font-size: 1.2rem;
+    }
+    
+    /* Estilos responsivos */
+    
+    @media (max-width: 767px) {
+    .hero {
+    padding: 50px 0;
+    }
+    
+    .hero h1 {
+    font-size: 2rem;
+    }
+    
+    .hero p {
+    font-size: 1rem;
+    }
+    
+    .servicio {
+    text-align: center;
+    }
+    
+    .servicio img {
+    margin-bottom: 20px;
+    }
+    }
+    
+    @media (max-width: 576px) {
+    .servicio h3 {
+    font-size: 1.5rem;
+    }
+    
+    .servicio p {
+    font-size: 1rem;
+    }
+    }
+
