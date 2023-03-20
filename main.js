@@ -40,21 +40,7 @@ const form = document.querySelector('#my-form');
     const email = form.email.value;
     const message = form.mensaje.value;
 
-    // enviar correo electrónico
-    const response = await fetch('https://api.example.com/send-email', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify({ name, email, message })
-    });
 
-    if (response.ok) {
-      alert('Correo electrónico enviado con éxito!');
-    } else {
-      alert('Ocurrió un error al enviar el correo electrónico. Por favor, inténtelo de nuevo más tarde.');
-    }
-  });
 
 
 
